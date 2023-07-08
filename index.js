@@ -5,7 +5,7 @@ function init() {
         .prompt ([
             {
                 name: "text",
-                message: "Enter the logo's text (maximum 3 letters):"
+                message: "Enter the logo's text (maximum 3 characters):"
             },
             {
                 name: "color",
@@ -19,7 +19,19 @@ function init() {
             }
         ])
         .then (answers => {
-            
+            if (answers.text.length > 3) {
+                console.log("Error: Text cannot be more than 3 characters.");
+            }
+            else {
+                switch (answers.shape) {
+                    case "Circle":
+                        break;
+                    case "Triangle":
+                        break;
+                    case "Square":
+                        break;
+                }
+            }
         })
 }
 
