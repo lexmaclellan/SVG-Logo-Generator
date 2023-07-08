@@ -18,6 +18,9 @@ function init() {
                 choices: ["Circle", "Triangle", "Square"]
             }
         ])
+        .then (answers => {
+            
+        })
 }
 
 init();
