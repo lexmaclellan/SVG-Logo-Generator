@@ -51,7 +51,7 @@ function init() {
                         break;
                     case "Square":
                         const square = new shapes.Square(answers.color);
-                        writeToSVG(square, text);
+                        writeToSVG(square, answers.text);
                         break;
                 }
             }
