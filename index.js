@@ -49,15 +49,18 @@ function init() {
             else {
                 switch (answers.shape) {
                     case "Circle":
-                        const circle = new shapes.Circle(answers.bgColor);
+                        const circle = new shapes.Circle();
+                        circle.setColor(answers.bgColor);
                         writeToSVG(circle, answers.text, answers.textColor);
                         break;
                     case "Triangle":
-                        const triangle = new shapes.Triangle(answers.bgColor);
+                        const triangle = new shapes.Triangle();
+                        triangle.setColor(answers.bgColor);
                         writeToSVG(triangle, answers.text, answers.textColor);
                         break;
                     case "Square":
-                        const square = new shapes.Square(answers.bgColor);
+                        const square = new shapes.Square();
+                        square.setColor(answers.bgColor);
                         writeToSVG(square, answers.text, answers.textColor);
                         break;
                 }
