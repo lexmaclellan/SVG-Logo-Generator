@@ -12,8 +12,8 @@ function writeToSVG(shape, text, textColor) {
         <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
         </svg>`;
     
-    fs.writeFile('shape.svg', data, (err) =>
-        err ? console.error(err) : console.log("SVG created successfully.")
+    fs.writeFile('logo.svg', data, (err) =>
+        err ? console.error(err) : console.log("Generated logo.svg")
     );
 }
 
