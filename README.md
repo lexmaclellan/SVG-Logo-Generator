@@ -20,6 +20,8 @@ N/A
 
 Enter up to three characters for the logo's text, then choose a text color by entering a color keyword or hexidecimal value. Enter a color for the logo's background and then choose a shape. An SVG file will be created.
 
+See [demo video](https://drive.google.com/file/d/1hzVGMPHTHPWegBu5XfhK9RFiFLlQki3V/view?usp=sharing).
+
 ## Credits
 
 N/A
